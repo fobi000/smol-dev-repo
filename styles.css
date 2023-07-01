@@ -1,40 +1,26 @@
-/* styles.css */
+@import 'tailwind.css';
 
-/* Import Tailwind CSS */
-@import './tailwind.css';
-
-/* Define CSS Variables */
-:root {
-    --main-bg-color: #1a202c;
-    --main-text-color: #e2e8f0;
-}
-
-/* Apply dark theme */
 body {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+    background-color: #121212;
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
-/* Custom styles for the website */
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    margin-bottom: 50px;
 }
 
 .footer {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-/* Media Queries for responsiveness */
-@media screen and (max-width: 768px) {
-    .container {
-        padding: 1rem;
-    }
+    margin-top: 50px;
 }
